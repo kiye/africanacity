@@ -18,8 +18,8 @@
         // Initiate Variables With Form Content
         var name = $("#name").val();
         var email = $("#email").val();
-        var msg_subject = $("#msg_subject").val();
         var phone_number = $("#phone_number").val();
+        var msg_subject = $("#msg_subject").val();
         var message = $("#message").val();
         var gridCheck = $("#gridCheck").val();
 
