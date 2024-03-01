@@ -1,15 +1,16 @@
 <?php
-header( 'Location: https://www.bashiras-cakes.com/thank-you.html' ) ;
+header( 'Location:' ) ;
 $name = $_POST['name'];
-$phone = $_POST['phone'];
 $email = $_POST['email'];
+$phone_number = $_POST['phone_number'];
+$msg_subject = $_POST['msg_subject'];
 $message = $_POST['message'];
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
 $recipient = "info@africanacitybeautyladiessaloon.com";
 
-mail($recipient, $phone, $message, $mailheader) or die("Error!");
+mail($recipient, $phone_number, $message, $mailheader) or die("Error!");
 
 echo'
 ';
