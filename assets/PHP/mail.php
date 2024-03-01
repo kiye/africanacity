@@ -1,5 +1,5 @@
 <?php
-header( 'Location:' ) ;
+header( 'Location:https://www.africanacitybeautyladiessaloon/nails.html' ) ;
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone_number = $_POST['phone_number'];
