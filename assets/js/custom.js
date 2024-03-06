@@ -225,7 +225,7 @@ jQuery(function ($) {
 
     // AJAX Mail Chimp JS
     $('.newsletter-form').ajaxChimp({
-        url: 'https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9', // Your url MailChimp
+        url: '', // Your url MailChimp
         callback: callbackFunction
 	});
 }(jQuery));
@@ -246,15 +246,7 @@ function toggleTheme() {
 }
 
 // Immediately invoked function to set the theme on initial load
-(function () {
-    if (localStorage.getItem('jeel_theme') === 'theme-dark') {
-        setTheme('theme-dark');
-        document.getElementById('slider').checked = false;
-    } else {
-        setTheme('theme-light');
-      document.getElementById('slider').checked = true;
-    }
-})();
+
 
 
 

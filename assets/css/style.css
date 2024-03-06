@@ -177,7 +177,7 @@ button:focus {
 }
 
 .section-title.two h2 {
-  color: #335D2D;
+  color: #fdfdfd;
 }
 
 /*----- Home Demo One CSS -----*/
@@ -3510,6 +3510,7 @@ button:focus {
   font-weight: 800;
   margin-bottom: 10px;
   color: #fff;
+  text-shadow: 1px 1px 1px #000;;
 }
 
 .page-title-area .title-content ul {
@@ -3599,11 +3600,27 @@ button:focus {
   background-color: #fff;
 }
 
-.title-img-two {
-  background-image: url("../images/title/title13.jpg");
+.title-img-makeup {
+  background-image: url("../images/title/makeup.jpg");
 }
 .title-img-three {
   background-image: url("../images/title/title2.jpg");
+}
+.title-img-moroccan {
+  background-image: url("../images/title/moroccan-bath.jpg");
+}
+.title-img-waxing {
+  background-image: url("../images/title/waxing.jpg");
+}
+
+.title-img-nails-painting {
+  background-image: url("../images/title/nails-painting.jpg");
+}
+.title-img-services {
+  background-image: url("../images/title/services-img.jpg");
+}
+.title-img-facial {
+  background-image: url("../images/title/facial.jpg");
 }
 
 /*----- Service Details CSS -----*/
@@ -4258,9 +4275,7 @@ button:focus {
 }
 
 /*----- Shop CSS -----*/
-.title-img-four {
-  background-image: url("../images/title/title4.jpg");
-}
+
 
 .shop-page-area {
   position: relative;
@@ -5873,5 +5888,79 @@ button:focus {
 .form-widget .form-control:-moz-placeholder { color: rgba(37,37,37,0.5);}
 .form-widget .form-control::-moz-placeholder { color: rgba(37,37,37,0.5);}
 .form-widget .form-control:-ms-input-placeholder { color: rgba(37,37,37,0.5);}
+
+/*-----Cookies*/
+
+#consentBox { 
+  background: #fff; 
+  padding: 10px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+} 
+
+#consentBox.hide { 
+  opacity: 0; 
+  pointer-events: none; 
+  transform: scale(0.8); 
+  transition: all 0.3s ease; 
+} 
+
+::selection { 
+  color: #fff; 
+  background: #229a0f; 
+} 
+
+#consentContent p { 
+  color: #858585;
+  font-size: 12px; 
+  margin: 5px 0 10px 0; 
+} 
+
+#consentContent .buttons { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 10px; 
+} 
+
+.consentButton, 
+.rejectButton { 
+  padding: 6px 15px; 
+  border: none; 
+  outline: none; 
+  color: #fff; 
+  font-size: 10px; 
+  font-weight: 500; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+} 
+
+.consentButton { 
+  background: #000000; 
+  margin-right: 10px; 
+} 
+
+.rejectButton { 
+  color: #111211; 
+  background: transparent; 
+  border: 2px solid #000000; 
+  text-decoration: none; 
+} 
+
+#consentBox img { 
+  max-width: 20px; 
+} 
+
+#consentHeader { 
+  font-size: 12px; 
+  font-weight: 600; 
+  margin-top: 10px; 
+}
+/*---end cokkies---*/
+
+
+
 /*------FORM WIDGET END*/
 

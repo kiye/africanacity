@@ -36,9 +36,9 @@ width:auto}
         .nice-select.small .option{line-height:34px;min-height:34px}
         .nice-select 
         .list{background-color:#fff;border-radius:5px;
-            box-shadow:0 0 0 1px rgba(68,68,68,.11);
+            box-shadow:0 0 0 1px rgba(68,68,68,.11); height: 150px;
             box-sizing:border-box;margin-top:4px;opacity:0;
-            overflow:hidden;padding:0;pointer-events:none;
+            overflow:hidden;overflow-y: scroll; padding:0;pointer-events:none;
             position:absolute;top:100%;left:0;
             -webkit-transform-origin:50% 0;
             -ms-transform-origin:50% 0;transform-origin:50% 0;
@@ -58,3 +58,5 @@ width:auto}
                 .option.disabled{background-color:transparent;
                     color:#999;cursor:default}.no-csspointerevents 
                     .nice-select .list{display:none}.no-csspointerevents .nice-select.open .list{display:block}
+
+                 

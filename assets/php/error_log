@@ -1,0 +1,21 @@
+[02-Mar-2024 19:48:16 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 19:48:16 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 19:48:16 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 19:48:45 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 19:48:45 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 19:48:45 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 20:01:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 13
+[02-Mar-2024 20:02:45 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 13
+[02-Mar-2024 20:30:34 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 20:30:34 America/New_York] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 20:30:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 9
+[02-Mar-2024 20:36:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/africanacity/test.africanacitybeautyladiessaloon.com/assets/php/form-process.php on line 13

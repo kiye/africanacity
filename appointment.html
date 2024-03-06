@@ -185,66 +185,84 @@
 <div class="appointment-content">
 <div class="appointment-shape">
 </div>
-<form action="" class="form-widget form-widget-inputicon" data-popup="popup-contact">
-<div class="row">
-<div class="col-lg-6">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-<input type="email" class="form-control" placeholder="Your Email">
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Address">
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Phone">
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-    <select class="state1" id="state1" name="state1">
-        <option value="AL">Alabama</option>
-        <option value="AK">Alaska</option>
-        <option value="AZ">Arizona</option>
-        <option value="AR">Arkansas</option>
-        <option value="CA">California</option>
-        <option value="CO">Colorado</option>
-        <option value="CT">Connecticut</option>
-      </select>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-    <select id="state2" name="state2" size="0" class="state2">    
-        <option value="55" class="has-children">AL</option>
-        <option value="25" class="has-children">AK</option>
-        <option value="200" class="has-children">AZ</option>
-        <option value="123" class="has-children">AR</option>
-        <option value="216" class="has-children">CA</option>
-        <option value="275" class="has-children">CO</option>
-        <option value="340" class="has-children">CT</option>
-      </select>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="form-group">
-<input type="datetime-local" id="Test_DatetimeLocal" class="form-control">
-</div>
-</div>
-<div class="col-lg-12">
-<div class="text-center">
-<button type="submit" class="btn common-btn two form-widget--btn f-3 txt-capi bold-n w100 btn solid btn-black bold-n animated s01" data-animOut="fadeOut|0.1" data-animIn="fadeInUp|0.5">Make An Appointment</button>
-</div>
-</div>
-</div>
-</form>
+<div class="section-title two">
+    <h2>Schedule an appointment</h2>
+    </div>
+<form class="appointment-area" action="assets/php/appointment-process.php" method="post">
+    <div class="row" id="contactForm">
+    <div class="col-lg-6">
+    <div class="form-group">
+    <input type="text" class="form-control" name="name" placeholder="Your Name">
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <input type="email" class="form-control" name="email" placeholder="Your Email">
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <input type="text" class="form-control" name="address" placeholder="Address">
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <input type="text" class="form-control" name="phone" placeholder="Phone">
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <select type="text" class="form-control nice-select" name="brand_select">
+    <option>Select Your Service</option>
+    <option>Braiding</option>
+    <option>Hair Treatment/Wash</option>
+    <option>Nails</option>
+    <option>Facials</option>
+    <option>Waxing</option>
+    <option>Moroccan Bath</option>
+    <option>Eye Lashes</option>
+    <option>Threading</option>
+    <option>Paraffin Treatment/Organic</option>
+    </select>
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <select type="text" class="form-control nice-select" name="price_select">
+    <option>Select Price</option>
+    <option>Pencil(Black)-100AED</option>
+    <option>Pencil(Puff)-150AED</option>
+    <option>Weave-100AED</option>
+    <option>Closer Weave-150AED</option>
+    <option>Normal Braids-150AED</option>
+    <option>Dreads-200AED</option>
+    <option>Dread Repair-150AED</option>
+    <option>Crochets-150AED</option>
+    <option>Cornrows-100AED</option>
+    <option>Small Cornrows-100AED</option>
+    <option>Twists-200AED</option>
+    <br>
+    <option>Hair Treatment/Wash</option>
+    </select>
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="form-group">
+    <input type="datetime-local" id="Test_DatetimeLocal" class="form-control" name="datetime" placeholder="Select Date & Time">
+    </div>
+    </div>
+    </select>
+    </div>
+    </div>
+    &nbsp;
+    <div class="col-lg-12">
+    <div class="text-center">
+    <button type="submit" class="btn common-btn two">Make An Appointment</button>
+    </div>
+    </div>
+    </div>
+    </form>
+
 </div>
 </div>
 </div>
@@ -368,10 +386,23 @@
         </div>
         </div>
 
+        <!--Cookies start-->
+        <div class="cookie-overlay p-4 d-none">
+            <div class="d-flex">
+              <div class="mr-3">
+                By clicking the "Accept" button below, you agree to our <a href="#">
+                'Cookie Policy'</a>
+              </div>
+            </div>
+            <button class="btn btn-primary mt-3 accept-cookies">Accept</button>
+            <button class="btn btn-primary mt-3 close-cookies">Decline</button>
+          </div>
+        <!--Cookies end-->
+
         <a target="_blank" href="https://api.whatsapp.com/send?phone=971503892990&amp;text=" style="bottom:10px; left:10px; position: fixed; z-index: 99999999;"> 
             <img style="height: 60px;" src="assets/images/wlogo4.png" alt="WhatsApp chat">
         </a>
-        <a target="_blank" href="appointment.html" style="bottom:10px; right:10px; position: fixed; z-index: 99999999;"> 
+        <a href="home-service.html" style="bottom:10px; right:10px; position: fixed; z-index: 99999999;"> 
             <img style="height: 100px;" src="assets/images/homeservice.png" alt="homebox">
         </a>
         
@@ -380,8 +411,6 @@
         <i class="bx bxs-up-arrow-alt"></i>
         <i class="bx bxs-up-arrow-alt"></i>
         </div>
-        
-        
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         

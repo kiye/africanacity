@@ -1,0 +1,452 @@
+<?php include "form-process.php"; ?>
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="assets/css/modal-video.min.css">
+    
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navigation.css">
+    
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- LIB -->
+	<link rel="stylesheet" href="lib/animation/animate.css">
+	<link rel="stylesheet" href="lib/sweetalert/sweetalert.css">
+	<link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="lib/vegas/vegas.min.css">
+	<link rel="stylesheet" href="lib/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css">
+    <title>Africanacity Beauty Ladies Saloon</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    </head>
+    <body>
+    
+    <div class="loader">
+    <div class="d-table">
+    <div class="d-table-cell">
+    <div class="loading">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="header-area">
+    <div class="container-fluid">
+    <div class="row align-items-center">
+    <div class="col-sm-3 col-lg-3">
+    <div class="left">
+    <ul>
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-facebook"></i>
+    </a>
+    </li>
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-tiktok"></i>
+    </a>
+    </li>
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-instagram"></i>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-sm-9 col-lg-9">
+    <div class="right">
+    <ul>
+    <li>
+    <i class="bx bx-mail-send"></i>
+    <span>Mail Us:</span>
+    <a href=""><span class="__cf_email__" data-cfemail="">info@africanacitybeautyladiessaloon.com</span></a>
+    </li>
+    <li>
+    <i class="bx bx-phone-call"></i>
+    <span>Call Now:</span>
+    <a href="tel:+971503892990">+971 50 389 2990</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="navbar-area sticky-top">
+    
+    <div class="mobile-nav">
+    <a href="index.html" class="logo">
+    <img src="assets/images/logo2.png" alt="Logo">
+    </a>
+    </div>
+    
+    <div class="main-nav">
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="index.html">
+    <img src="assets/images/logo2.png" alt="Logo">
+    </a>
+    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a href="index.html" class="nav-link active">HOME</a>
+    </li>
+    <li class="nav-item">
+    <a href="about.html" class="nav-link">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link dropdown-toggle">SERVICES <i class="bx bx-plus"></i></a>
+        <ul class="dropdown-menu">
+        <li class="nav-item">
+        <a href="braiding.html" class="nav-link"> Braiding</a>
+        </li>
+        <li class="nav-item">
+        <a href="waxing.html" class="nav-link"> Waxing</a>
+        </li>
+        <li class="nav-item">
+        <a href="facials.html" class="nav-link">Facials</a>
+        </li>
+        <li class="nav-item">
+        <a href="services.html" class="nav-link">More</a>
+        </li>
+        </ul>
+        </li>
+    <li class="nav-item">
+    <a href="contact.html" class="nav-link">CONTACT</a>
+    </li>
+    </ul>
+    <div class="side-nav">
+    <a class="common-btn nav-btn" href="appointment.html">Appointment</a>
+    </div>
+    </div>
+    </nav>
+    </div>
+    </div>
+    </div>
+
+
+<div class="page-title-wrap">
+<div class="page-title-area title-img-five">
+    &nbsp;
+<div class="d-table">
+<div class="d-table-cell">
+<div class="title-content">
+<h2>Contact</h2>
+<ul>
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<span>Contact</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+<div class="contact-form-area pb-100">
+    <div class="container">
+        <div class="form-item">
+            <div class="section-title two">
+            <h2>Get In Touch with Us</h2>
+            </div>
+        <form class="contact-form-area" action="" method="POST">
+            <div class="row" id="contactForm">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="name" required name="name" placeholder="Names">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control required" type="text" id="phone" required name="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="col-md-12 form-p">
+                    <div class="form-group">
+                        <input class="form-control required" type="email" id="email" required name="email" placeholder="Email Address">
+                    </div>
+                </div>
+                <div class="col-md-12 form-p">
+                    <div class="form-group">
+                        <input class="form-control required" type="text" id="subject" required name="subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="8" name="message" id="message" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group mb-0 d-flex justify-content-center">
+                        <button class="btn common-btn two form-widget--btn f-3 txt-capi bold-n w100 btn solid btn-black bold-n animated s01" value="send" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="clearfix"></div>
+    </div>
+    </div>
+    </div>
+        </form>
+<?php include "form.process.php"?>
+</div>
+</div>
+</div>
+
+<div class="contact-info-area pt-100 pb-70">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-6 col-lg-4">
+    <div class="contact-info-item">
+    <h3>Address:</h3>
+    <ul>
+    <li>
+    <a href="#">Abu Dhabi City, Hamdan bin Mohammed Street-Al Danah Zone, Royal Tower Building No.6 Floor 707</a>
+    </li>
+    <li>
+    <a href="#">We are located behind KFC in between Al Mariah Mall and Day to Day Shopping near Capital parkC</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-sm-6 col-lg-4">
+    <div class="contact-info-item active">
+    <h3>Phone No:</h3>
+    <ul>
+    <li>
+    <a href="tel:+971503892990">+971 50 389 2990</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+    <div class="contact-info-item">
+    <h3>Email:</h3>
+    <ul>
+    <li>
+    <a href=""><span class="__cf_email__" data-cfemail="">info@africanacitybeautyladiessaloon.com</span></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+<div class="map-area pb-100">
+<div class="container">
+<iframe id="map" src="" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+
+
+<footer class="footer-area pt-100 pb-70">
+    <div class="footer-shape">
+    </div>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-6 col-lg-4">
+    <div class="footer-item">
+    <div class="footer-contact">
+    <h3>Contact Info:</h3>
+    <ul class="info">
+    <li>
+    <a href="#">Abu Dhabi City, Hamdan bin Mohammed Street-Al Danah Zone, Royal Tower Building No.6 Floor 707</a>
+    </li>
+    <li>
+    <a href="#">We are located behind KFC in between Al Mariah Mall and Day to Day Shopping near Capital park</a>
+    </li>
+    <li>
+    <span>Phone:</span>
+    <a href="tel:+971503892990">+971 50 389 2990</a>
+    </li>
+    <li>
+    <span>Email:</span>
+    <a href=""><span class="__cf_email__" data-cfemail="">info@africanacitybeautyladiessaloon.com</span></a>
+    </li>
+    </ul>
+    <ul class="social">
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-facebook"></i>
+    </a>
+    </li>
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-tiktok"></i>
+    </a>
+    </li>
+    <li>
+    <a href="#" target="_blank">
+    <i class="bx bxl-instagram"></i>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-6 col-lg-4">
+    <div class="footer-item">
+    <div class="footer-img">
+    <a href="index.html">
+    <img src="assets/images/logo-two2.png" alt="Footer">
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+        <div class="footer-item">
+        <h3>Open Hours:</h3>
+        <div class="footer-hours">
+        <div class="left">
+        <ul>
+        
+        <li>Monday:</li>
+        <li>Tuesday:</li>
+        <li>Wednesday:</li>
+        <li>Thursday:</li>
+        <li>Friday</li>
+        <li>Saturday:</li>
+        <li>Sunday:</li>
+        </ul>
+        </div>
+        <div class="right">
+        <ul>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        <li>
+        00:00
+        <span>00:00</span>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </footer>
+
+
+    <div class="copyright-area">
+        <div class="container">
+        <div class="copyright-item">
+        <p>Copyright @2024 &nbsp;<a href="https://www.africanacitybeautyladiessaloon.com" target="_blank">Africanacity</a></p>
+        </div>
+        </div>
+        </div>
+
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=971503892990&amp;text=" style="bottom:10px; left:10px; position: fixed; z-index: 99999999;"> 
+            <img style="height: 60px;" src="assets/images/wlogo4.png" alt="WhatsApp chat">
+        </a>
+        <a target="_blank" href="appointment.html" style="bottom:10px; right:10px; position: fixed; z-index: 99999999;"> 
+            <img style="height: 100px;" src="assets/images/homeservice.png" alt="homebox">
+        </a>
+
+
+<div class="go-top">
+<i class="bx bxs-up-arrow-alt"></i>
+<i class="bx bxs-up-arrow-alt"></i>
+</div>
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="assets/js/form-validator.min.js"></script>
+        
+        <script src="assets/js/contact-form-script.js"></script>
+        
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        
+        <script src="assets/js/jquery.meanmenu.js"></script>
+        
+        <script src="assets/js/wow.min.js"></script>
+        
+        <script src="assets/js/owl.carousel.min.js"></script>
+        
+        <script src="assets/js/jquery-modal-video.min.js"></script>
+        
+        <script src="assets/js/odometer.min.js"></script>
+        <script src="assets/js/jquery.appear.min.js"></script>
+        
+        <script src="assets/js/jquery.themepunch.tools.min.js"></script>
+        <script src="assets/js/jquery.themepunch.revolution.min.js"></script>
+        
+        <script src="assets/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="assets/js/extensions/revolution.extension.video.min.js"></script>
+        
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        
+        <script src="assets/js/custom.js"></script>
+        <script type="text/javascript" src="js/nc.js"></script>
+        <script type="text/javascript" src="lib/jquery/jquery-1.12.4.min.js"></script>
+	    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="lib/jquery-validation/jquery.validate.min.js"></script>
+	    <script type="text/javascript" src="js/plugins.js"></script>
+	    <script type="text/javascript" src="lib/pace/pace.min.js"></script>
+	    <script type="text/javascript" src="js/nc.js"></script>
+</body>
+</html>
